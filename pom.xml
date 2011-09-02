@@ -4,9 +4,11 @@
 	<groupId>org.lesscss</groupId>
 	<artifactId>less.java</artifactId>
 	<version>1.1.4-SNAPSHOT</version>
+	
 
 
 	<build>
+		
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
