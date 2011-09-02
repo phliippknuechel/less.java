@@ -8,7 +8,7 @@ Java integration for the - The **dynamic** stylesheet language.
 - Minimal dependencies - Only 1 Rhino.jar
 
 - Work with less files as if they were normal css files. 
-  
+
 	<link type="text/css" rel="stylesheet" href="/css/main.less" >
 
 - CSS is generated on the fly. 
@@ -20,6 +20,7 @@ Java integration for the - The **dynamic** stylesheet language.
 usage
 -------
 Add the following dependency to your maven project:
+
 	<dependency>
 		<groupId>org.lesscss.java</groupId>
 		<artifactId>less.java</artifactId>
@@ -42,6 +43,7 @@ Add the following servlet to your web.xml:
 
 Optional configuration:
 Limit the number of cached css resources:
+
 	<servlet>...
 		<init-param>
 	        <param-name>cache-size</param-name>
